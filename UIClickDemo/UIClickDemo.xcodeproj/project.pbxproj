@@ -1,0 +1,611 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0D931D552E79AD8B00A42ACE /* im.png in Resources */ = {isa = PBXBuildFile; fileRef = 0D931D542E79AD8B00A42ACE /* im.png */; };
+		1D8C797DCC20A6C1D59CD989 /* libPods-UIClickDemo.a in Frameworks */ = {isa = PBXBuildFile; fileRef = B0F81C04A134751E4420C611 /* libPods-UIClickDemo.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		0D931CC82E79A7E900A42ACE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0D931CA42E79A7E600A42ACE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0D931CAB2E79A7E700A42ACE;
+			remoteInfo = UIClickDemo;
+		};
+		0D931CD22E79A7E900A42ACE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0D931CA42E79A7E600A42ACE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0D931CAB2E79A7E700A42ACE;
+			remoteInfo = UIClickDemo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		093FF402EA35EA9E995AF493 /* Pods-UIClickDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-UIClickDemo.debug.xcconfig"; path = "Target Support Files/Pods-UIClickDemo/Pods-UIClickDemo.debug.xcconfig"; sourceTree = "<group>"; };
+		0D931CAC2E79A7E700A42ACE /* UIClickDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = UIClickDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		0D931CC72E79A7E900A42ACE /* UIClickDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = UIClickDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		0D931CD12E79A7E900A42ACE /* UIClickDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = UIClickDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		0D931D542E79AD8B00A42ACE /* im.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = im.png; sourceTree = "<group>"; };
+		A70C38D51B853BDE17385E74 /* Pods-UIClickDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-UIClickDemo.release.xcconfig"; path = "Target Support Files/Pods-UIClickDemo/Pods-UIClickDemo.release.xcconfig"; sourceTree = "<group>"; };
+		B0F81C04A134751E4420C611 /* libPods-UIClickDemo.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-UIClickDemo.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
+		0D931CD92E79A7E900A42ACE /* Exceptions for "UIClickDemo" folder in "UIClickDemo" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				Info.plist,
+			);
+			target = 0D931CAB2E79A7E700A42ACE /* UIClickDemo */;
+		};
+/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		0D931CAE2E79A7E700A42ACE /* UIClickDemo */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				0D931CD92E79A7E900A42ACE /* Exceptions for "UIClickDemo" folder in "UIClickDemo" target */,
+			);
+			path = UIClickDemo;
+			sourceTree = "<group>";
+		};
+		0D931CCA2E79A7E900A42ACE /* UIClickDemoTests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = UIClickDemoTests;
+			sourceTree = "<group>";
+		};
+		0D931CD42E79A7E900A42ACE /* UIClickDemoUITests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = UIClickDemoUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0D931CA92E79A7E700A42ACE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1D8C797DCC20A6C1D59CD989 /* libPods-UIClickDemo.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0D931CC42E79A7E900A42ACE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0D931CCE2E79A7E900A42ACE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0D931CA32E79A7E600A42ACE = {
+			isa = PBXGroup;
+			children = (
+				0D931D542E79AD8B00A42ACE /* im.png */,
+				0D931CAE2E79A7E700A42ACE /* UIClickDemo */,
+				0D931CCA2E79A7E900A42ACE /* UIClickDemoTests */,
+				0D931CD42E79A7E900A42ACE /* UIClickDemoUITests */,
+				0D931CAD2E79A7E700A42ACE /* Products */,
+				9F18864DFAFF4978870D770C /* Pods */,
+				7D8EE8BA6FE7B949E5A3AFBE /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		0D931CAD2E79A7E700A42ACE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				0D931CAC2E79A7E700A42ACE /* UIClickDemo.app */,
+				0D931CC72E79A7E900A42ACE /* UIClickDemoTests.xctest */,
+				0D931CD12E79A7E900A42ACE /* UIClickDemoUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7D8EE8BA6FE7B949E5A3AFBE /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B0F81C04A134751E4420C611 /* libPods-UIClickDemo.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		9F18864DFAFF4978870D770C /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				093FF402EA35EA9E995AF493 /* Pods-UIClickDemo.debug.xcconfig */,
+				A70C38D51B853BDE17385E74 /* Pods-UIClickDemo.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		0D931CAB2E79A7E700A42ACE /* UIClickDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0D931CDA2E79A7E900A42ACE /* Build configuration list for PBXNativeTarget "UIClickDemo" */;
+			buildPhases = (
+				3C8B026B8D1A4E045CDF069A /* [CP] Check Pods Manifest.lock */,
+				0D931CA82E79A7E700A42ACE /* Sources */,
+				0D931CA92E79A7E700A42ACE /* Frameworks */,
+				0D931CAA2E79A7E700A42ACE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				0D931CAE2E79A7E700A42ACE /* UIClickDemo */,
+			);
+			name = UIClickDemo;
+			productName = UIClickDemo;
+			productReference = 0D931CAC2E79A7E700A42ACE /* UIClickDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		0D931CC62E79A7E900A42ACE /* UIClickDemoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0D931CDF2E79A7E900A42ACE /* Build configuration list for PBXNativeTarget "UIClickDemoTests" */;
+			buildPhases = (
+				0D931CC32E79A7E900A42ACE /* Sources */,
+				0D931CC42E79A7E900A42ACE /* Frameworks */,
+				0D931CC52E79A7E900A42ACE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0D931CC92E79A7E900A42ACE /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				0D931CCA2E79A7E900A42ACE /* UIClickDemoTests */,
+			);
+			name = UIClickDemoTests;
+			productName = UIClickDemoTests;
+			productReference = 0D931CC72E79A7E900A42ACE /* UIClickDemoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		0D931CD02E79A7E900A42ACE /* UIClickDemoUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0D931CE22E79A7E900A42ACE /* Build configuration list for PBXNativeTarget "UIClickDemoUITests" */;
+			buildPhases = (
+				0D931CCD2E79A7E900A42ACE /* Sources */,
+				0D931CCE2E79A7E900A42ACE /* Frameworks */,
+				0D931CCF2E79A7E900A42ACE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0D931CD32E79A7E900A42ACE /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				0D931CD42E79A7E900A42ACE /* UIClickDemoUITests */,
+			);
+			name = UIClickDemoUITests;
+			productName = UIClickDemoUITests;
+			productReference = 0D931CD12E79A7E900A42ACE /* UIClickDemoUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		0D931CA42E79A7E600A42ACE /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastUpgradeCheck = 1620;
+				TargetAttributes = {
+					0D931CAB2E79A7E700A42ACE = {
+						CreatedOnToolsVersion = 16.2;
+					};
+					0D931CC62E79A7E900A42ACE = {
+						CreatedOnToolsVersion = 16.2;
+						TestTargetID = 0D931CAB2E79A7E700A42ACE;
+					};
+					0D931CD02E79A7E900A42ACE = {
+						CreatedOnToolsVersion = 16.2;
+						TestTargetID = 0D931CAB2E79A7E700A42ACE;
+					};
+				};
+			};
+			buildConfigurationList = 0D931CA72E79A7E700A42ACE /* Build configuration list for PBXProject "UIClickDemo" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 0D931CA32E79A7E600A42ACE;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = 0D931CAD2E79A7E700A42ACE /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				0D931CAB2E79A7E700A42ACE /* UIClickDemo */,
+				0D931CC62E79A7E900A42ACE /* UIClickDemoTests */,
+				0D931CD02E79A7E900A42ACE /* UIClickDemoUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		0D931CAA2E79A7E700A42ACE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0D931D552E79AD8B00A42ACE /* im.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0D931CC52E79A7E900A42ACE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0D931CCF2E79A7E900A42ACE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		3C8B026B8D1A4E045CDF069A /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-UIClickDemo-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0D931CA82E79A7E700A42ACE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0D931CC32E79A7E900A42ACE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0D931CCD2E79A7E900A42ACE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		0D931CC92E79A7E900A42ACE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 0D931CAB2E79A7E700A42ACE /* UIClickDemo */;
+			targetProxy = 0D931CC82E79A7E900A42ACE /* PBXContainerItemProxy */;
+		};
+		0D931CD32E79A7E900A42ACE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 0D931CAB2E79A7E700A42ACE /* UIClickDemo */;
+			targetProxy = 0D931CD22E79A7E900A42ACE /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		0D931CDB2E79A7E900A42ACE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 093FF402EA35EA9E995AF493 /* Pods-UIClickDemo.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = UIClickDemo/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.xiaoli.UIClickDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		0D931CDC2E79A7E900A42ACE /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A70C38D51B853BDE17385E74 /* Pods-UIClickDemo.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = UIClickDemo/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.xiaoli.UIClickDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		0D931CDD2E79A7E900A42ACE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		0D931CDE2E79A7E900A42ACE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		0D931CE02E79A7E900A42ACE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.xiaoli.UIClickDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/UIClickDemo.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/UIClickDemo";
+			};
+			name = Debug;
+		};
+		0D931CE12E79A7E900A42ACE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.xiaoli.UIClickDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/UIClickDemo.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/UIClickDemo";
+			};
+			name = Release;
+		};
+		0D931CE32E79A7E900A42ACE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.xiaoli.UIClickDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = UIClickDemo;
+			};
+			name = Debug;
+		};
+		0D931CE42E79A7E900A42ACE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.xiaoli.UIClickDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = UIClickDemo;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0D931CA72E79A7E700A42ACE /* Build configuration list for PBXProject "UIClickDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0D931CDD2E79A7E900A42ACE /* Debug */,
+				0D931CDE2E79A7E900A42ACE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0D931CDA2E79A7E900A42ACE /* Build configuration list for PBXNativeTarget "UIClickDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0D931CDB2E79A7E900A42ACE /* Debug */,
+				0D931CDC2E79A7E900A42ACE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0D931CDF2E79A7E900A42ACE /* Build configuration list for PBXNativeTarget "UIClickDemoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0D931CE02E79A7E900A42ACE /* Debug */,
+				0D931CE12E79A7E900A42ACE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0D931CE22E79A7E900A42ACE /* Build configuration list for PBXNativeTarget "UIClickDemoUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0D931CE32E79A7E900A42ACE /* Debug */,
+				0D931CE42E79A7E900A42ACE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 0D931CA42E79A7E600A42ACE /* Project object */;
+}
